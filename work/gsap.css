@@ -100,3 +100,10 @@
     height: 15.1vw;
     width: 100vw;
 }
+
+
+#menu_bar
+{
+    /* background-color: #EE2F2F; */
+    overflow: hidden;
+}
