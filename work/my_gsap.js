@@ -59,6 +59,7 @@ window.onload = function(){
     // tl.from(textChars[10], 2, {left:"132vw", ease:easeOut}, delayMinus);
     // tl.from(textChars[11], 2, {left:"132vw", ease:easeOut}, delayMinus);
     // tl.staggerFrom(textChars, myTime, {left:"132vw", top:"-35vw", rotation: myRotate, autoAlpha: alpha, ease:easeOut}, 0.2);
-    tl.staggerFrom(textChars, myTime, {top:"-135vw", rotation: myRotate, autoAlpha: alpha, ease:easeOut}, 0.2);
+    tl.from(logo, 1, {left:"632px", ease:Back.easeOut})
+    .staggerFrom(textChars, myTime, {top:"-135vw", rotation: myRotate, autoAlpha: alpha, ease:easeOut}, 0.2);
 }
 
